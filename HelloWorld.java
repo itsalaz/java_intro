@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 
 
 // class HelloWorld {
@@ -64,17 +66,54 @@
 
 
 
-class HelloWorld {
-  public static void main(String[] args) {
-    String literalString1 = "abc";
-    String literalString2 = "abc";
+// class HelloWorld {
+//   public static void main(String[] args) {
+//     String literalString1 = "abc";
+//     String literalString2 = "abc";
 
 
-    String objectString1 = new String("xyz");
-    String objectString2 = new String("xyz");
+//     String objectString1 = new String("xyz");
+//     String objectString2 = new String("xyz");
 
 
-    System.out.println(literalString1 == literalString2);
-    // System.out.println(objectString1 == objectString2);
-  }
-}
+//     System.out.println(literalString1 == literalString2);
+//     // System.out.println(objectString1 == objectString2);
+//   }
+// }
+
+
+// class HelloWorld {
+//   public static void main(String[] args) {
+//     Scanner scanner = new Scanner(System.in);
+
+//     System.out.print("Hello, what is your name?");
+//     String name = scanner.nextLine();
+
+//     System.out.println(name);
+
+//     scanner.close(); // scans up until this line
+
+//   }
+// }
+
+
+// user inputs & responses 
+
+// class HelloWorld {
+//   public static void main(String[] args) {
+//     Scanner scanner = new Scanner(System.in);
+
+//     System.out.print("What is your name?");
+//     String name = scanner.nextLine();
+
+//     System.out.printf("Hello %s. How old are you? ", name);
+//     int age = Integer.parseInt(scanner.nextLine());
+
+//     System.out.printf("%d is an excellent age to start programming.%n", age);
+//     String language = scanner.nextLine();
+
+//     System.out.printf("%s is a very popular programming language.", language);
+    
+//     scanner.close();
+//   }
+// }
